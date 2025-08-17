@@ -250,9 +250,18 @@ int main() {
             case 4: bookTicket(); break;
             case 5: cancelTicket(); break;
             case 6: viewBookedTickets(); break;
-            case 7: exit(0);
+            case 7: printf("\nGoodBye");exit(0);
             default: printf("Invalid choice! Try again.\n");
         }
     }
     return 0;
 }
+
+
+| Train No | Train Name     | Source    | Destination | Total Seats | Fare (₹) |
+| -------- | -------------- | --------- | ----------- | ----------- | -------- |
+| 12001    | Shatabdi Exp   | New Delhi | Bhopal      | 800         | 1200     |
+| 12951    | Rajdhani Exp   | Mumbai    | New Delhi   | 1000        | 2500     |
+| 12235    | Duronto Exp    | Mumbai    | Nagpur      | 750         | 1500     |
+| 12627    | Karnataka Exp  | Bengaluru | New Delhi   | 1200        | 2200     |
+| 12841    | Coromandel Exp | Kolkata   | Chennai     | 900         | 1800     |
